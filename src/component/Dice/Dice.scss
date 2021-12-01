@@ -1,0 +1,20 @@
+.dice {
+  &:first-child {
+    margin-right: 2rem;
+  }
+
+  &--big {
+    font-size: 8rem;
+  }
+}
+.animate {
+  animation: 0.1s linear 0s infinite alternate roll;
+}
+@keyframes roll {
+  0% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(10px);
+  }
+}

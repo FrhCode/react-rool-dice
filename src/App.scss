@@ -1,0 +1,15 @@
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+:root {
+  --bg-color: #e8e8e8;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.App {
+  text-align: center;
+  margin-top: 4rem;
+}
